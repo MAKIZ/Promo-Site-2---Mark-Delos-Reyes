@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pirata+One');
+
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    font-family: 'Pirata One',Garamond, cursive;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+nav {
+    background: rgba(220, 20, 60, .4);
+    position: absolute;
+    width: 1320px;
+    height: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Pirata One',Garamond, cursive;
+}
+
+ul {
+    word-spacing: 20px;   
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffaa30;
+}
+
+li {
+    display: inline;
+    color: #ffffff;
+    font-size: 30px;
+
+  
+}
+
+.slideshow-container {
+    z-index: 1;
+}
+
+.column-layout {
+    max-width: 1300px;
+    background-color: #fff;
+    margin: 40px auto 0 auto;
+    line-height: 1.65;
+    padding: 20px 50px;
+    display: flex;
+}
+.main-column {
+    flex: 2;
+    order: 2;
+}
+
+.sidebar-one {
+    flex: 1;
+    order: 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.btnStyle {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cast {
+    position: relative;
+    display: flex;
+}
+
+#credits {
+    margin-top: 40px;
+}
+
+#credits a {
+    color: black;
+}
+
+#credits a:hover {
+    color: #ffaa30;
+}
+
+#actor {
+    flex: 1;
+}
+
+#castName {
+    flex: 1;
+}
+
+#slideBtn {
+    margin: 10px;
+    padding: 20px;
+    background: firebrick;
+    border: none;
+    text-align: center;
+    color: snow;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Pirata One',Garamond, cursive;
+}
+
+#video-background {
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
